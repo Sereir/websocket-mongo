@@ -5,8 +5,8 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
-    "test": "nyc mocha --recursive --exit",
-    "test:watch": "nyc mocha --recursive --watch"
+  "test": "nyc mocha test/auth.test.js test/messages.test.js test/websocket.test.js test/integration.test.js --exit",
+  "test:watch": "nyc mocha test/auth.test.js test/messages.test.js test/websocket.test.js test/integration.test.js --watch"
   },
   "keywords": [],
   "author": "",
