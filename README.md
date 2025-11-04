@@ -170,7 +170,6 @@ sequenceDiagram
 - Objectif: couverture ≥ 80% (ajouter des tests si nécessaire)
 
 ## Structure du projet
-Voir aussi `instructions.txt`.
 ```
 src/
   app.js, server.js
